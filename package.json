@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "install":"npx playwright test"
+    "install": "npx playwright test"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.47.2",
+    "@playwright/test": "^1.56.1",
     "@types/node": "^22.6.1",
     "typescript": "^5.6.2"
   }
