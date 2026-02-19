@@ -12,17 +12,18 @@ Este projeto tem como objetivo a automação de testes end-to-end (E2E) utilizan
 
 ## Estrutura do Projeto
 
-´´´├── Locators/
-│ ├── login_locators.js → Seletores da página de login
-│ ├── carrinho_locators.js → Seletores do carrinho
-│ ├── products_locators.js → Seletores dos produtos
+```bash
+├── locators
+│   ├── login_locators.js        # Seletores da página de login
+│   ├── carrinho_locators.js     # Seletores do carrinho
+│   └── products_locators.js     # Seletores dos produtos
 │
-├── Page/
-│ ├── Pagina_login.js → Ações da página de login
-│ ├── Pagina_carrinho.js → Ações do carrinho
-│ ├── Pagina_products.js → Ações dos produtos
+├── pages
+│   ├── login.page.js            # Ações da página de login
+│   ├── carrinho.page.js         # Ações do carrinho
+│   └── products.page.js         # Ações dos produtos
 │
-├── Tests/
-│ ├── login.spec.ts → Cenários de login
-│ ├── carrinho.spec.ts → Cenários do carrinho
-│ ├── products.spec.ts → Cenários de produtos´´´
+├── tests
+│   ├── login.spec.ts            # Cenários de login
+│   ├── carrinho.spec.ts         # Cenários do carrinho
+│   └── products.spec.ts         # Cenários de produtos
